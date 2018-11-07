@@ -1,6 +1,7 @@
 # Browser start page (브라우저 시작 페이지)
 - ToyProject
 - 개발인원: 2명 (Front-End 1, Back-End 1)
+- front, back-end repository를 분리하였고, 각자 빌드 및 배포하여 작업하는 형태로 진행한다.
 - back-end repository
   - https://github.com/gwonsungjun/BrowserStartPage
 
