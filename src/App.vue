@@ -1,28 +1,32 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  div(id="app")
+    app-header
+    app-sidebar
+    main(class="wrap-main")
+      login-index
+    app-footer
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LoginIndex from '@/views/login/Index'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    LoginIndex
   }
 }
 </script>
 
-<style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+<style lang="sass">
+#app
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans KR', 'sans-serif';
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  position: relative;
+  .wrap-main
+    width: 1100px;
 </style>
