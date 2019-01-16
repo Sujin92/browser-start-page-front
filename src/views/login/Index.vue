@@ -1,21 +1,21 @@
 <template lang="pug">
-  main(class="login-container")
-    div(class="wrap-login")
+  main(class="wrap-login")
+    div(class="wrap-title")
       h1(class="title") 로그인
 </template>
 
 <script>
 export default {
-  name: 'login'
+  name: 'login-index'
 }
 </script>
 
 <style lang="sass">
-.login-container
-  width: 100%;
+.wrap-login
+ width: 100%;
   height: 100%;
   background: #FAFAFA;
-  .wrap-login
+  .wrap-title
     padding: 16px;
     background: #FFF;
     .title
