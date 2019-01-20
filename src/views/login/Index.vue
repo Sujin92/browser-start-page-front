@@ -1,7 +1,14 @@
 <template lang="pug">
   main(class="wrap-login")
-    div(class="wrap-title")
+    div(class="wrap-components")
       h1(class="title") 로그인
+      div(class="row")
+        label(class="label" for="id") 아이디
+        input(type="text" name="id" class="input")
+      div(class="row")
+        label(class="label" for="password") 비밀번호
+        input(type="password" name="password" class="input")
+
 </template>
 
 <script>
@@ -12,12 +19,11 @@ export default {
 
 <style lang="sass">
 .wrap-login
- width: 100%;
-  height: 100%;
-  background: #FAFAFA;
-  .wrap-title
-    padding: 16px;
-    background: #FFF;
+  width: 100%
+  height: 100%
+  background: #FAFAFA
+  .wrap-components
+    background: #FFF
     .title
-      font-size: 16px;
+      font-size: 16px
 </style>
