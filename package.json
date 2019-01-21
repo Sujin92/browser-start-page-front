@@ -17,7 +17,9 @@
     "reset-css": "^4.0.1",
     "reset.css": "^2.0.2",
     "sass-loader": "^7.1.0",
-    "vue": "^2.5.21"
+    "vue": "^2.5.21",
+    "vue-moment": "^4.0.0",
+    "vuex": "^3.1.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.0.4",
