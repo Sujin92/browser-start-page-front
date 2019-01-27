@@ -9,11 +9,27 @@
 
 <script>
 import LoginIndex from '@/views/login/Index'
+import { mapMutations, mapState } from 'vuex'
+import moment from 'moment'
 
 export default {
   name: 'app',
   components: {
     LoginIndex
+  },
+  created () {
+    window.addEventListener('click', this.onClick)
+  },
+  methods: {
+    ...mapMutations(['setTime']),
+    onClick () {
+      const d = new Date()
+      this.setTime(d) // last action time
+      
+      window.setTimeout(() => {
+        
+      }, 55000)
+    }
   }
 }
 </script>

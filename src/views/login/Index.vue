@@ -8,12 +8,17 @@
       div(class="row")
         label(class="label" for="password") 비밀번호
         input(type="password" name="password" class="input")
-
+      button(class="btn" @click="clickHandler")
 </template>
 
 <script>
 export default {
-  name: 'login-index'
+  name: 'login-index',
+  methods: {
+    clickHandler () {
+
+    }
+  }
 }
 </script>
 

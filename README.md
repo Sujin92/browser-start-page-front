@@ -56,4 +56,3 @@
 - Editor : VSCode
 - git Tools : Terminal || Source Tree || Git kraken
 - OS : Mac OS
->>>>>>> 9f1009f090330a59653efde5136740aa37f2e7a7
