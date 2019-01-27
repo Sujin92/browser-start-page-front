@@ -3,7 +3,7 @@
     div(class="wrap-components")
       h1(class="title") 로그인
       div(class="row")
-        label(class="label" for="id") 아이디
+        label(class="label" for="id") 아이디 입력하기
         input(type="text" name="id" class="input")
       div(class="row")
         label(class="label" for="password") 비밀번호

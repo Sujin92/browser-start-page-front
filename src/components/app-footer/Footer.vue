@@ -1,5 +1,5 @@
 <template lang="pug">
-  main(class="footer-container") dfd
+  main(class="footer-container")
 </template>
 
 <script>
