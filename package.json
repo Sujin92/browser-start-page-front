@@ -3,10 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+<<<<<<< HEAD
     "serve": "vue-cli-service serve --verbose",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build --mode development",
     "build:dev": "vue-cli-service build --verbose"
+=======
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "jest"
+  },
+  "transform": {
+    "^.+\\.jsx?$": "babel-jest"
+>>>>>>> 36b9d01c3f294124364a68ba140feb494b598f11
   },
   "dependencies": {
     "node-sass": "^4.11.0",
@@ -28,6 +38,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
+    "jest": "^24.0.0",
     "vue-template-compiler": "^2.5.21"
   },
   "postcss": {
@@ -39,5 +50,18 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "description": "- ToyProject\r - 개발인원: 2명 (Front-End 1, Back-End 1)\r - front, back-end repository를 분리하였고, 각자 빌드 및 배포하여 작업하는 형태로 진행한다.\r - back-end repository\r   - https://github.com/gwonsungjun/BrowserStartPage",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sujin92/browser-start-page-front.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sujin92/browser-start-page-front/issues"
+  },
+  "homepage": "https://github.com/Sujin92/browser-start-page-front#readme"
 }
