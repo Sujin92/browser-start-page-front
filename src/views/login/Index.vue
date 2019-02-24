@@ -8,7 +8,7 @@
       div(class="row")
         label(class="label" for="password") 비밀번호
         input(type="password" name="password" class="input")
-      button(class="btn" @click="clickHandler")
+        button(class="btn" @click="clickHandler")
 </template>
 
 <script>
@@ -29,6 +29,9 @@ export default {
   background: #FAFAFA
   .wrap-components
     background: #FFF
+    width: 400px
+    margin: 0 auto
+    padding: 40px
     .title
       font-size: 16px
 </style>
