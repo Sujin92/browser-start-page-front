@@ -3,20 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-<<<<<<< HEAD
     "serve": "vue-cli-service serve --verbose",
     "lint": "vue-cli-service lint",
     "build": "vue-cli-service build --mode development",
-    "build:dev": "vue-cli-service build --verbose"
-=======
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "build:dev": "vue-cli-service build --verbose",
     "test": "jest"
-  },
-  "transform": {
-    "^.+\\.jsx?$": "babel-jest"
->>>>>>> 36b9d01c3f294124364a68ba140feb494b598f11
   },
   "dependencies": {
     "node-sass": "^4.11.0",
