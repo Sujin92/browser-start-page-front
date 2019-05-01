@@ -1,6 +1,6 @@
 <template lang="pug">
-  main(class="header-container")
-    span(class="login" @click="emitClick") 로그인
+  div(class="header-container")
+    div(class="login" @click="emitClick") 로그인
 </template>
 
 <script>
